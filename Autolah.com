@@ -63,6 +63,8 @@ def login():
         menu()
     except (KeyError, IOError):
         os.system('clear')
+        print logo
+        priprint 40 * '\x1b[1;92m\n\xe2\x95\x94'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK MU BUJANK \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername \x1b[1;91m:\x1b[1;92m ')
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
