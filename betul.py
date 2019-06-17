@@ -1,6 +1,6 @@
 #Decompiled by MR.CY-ARR
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
-from multiprocessing.pool import ThreadPool
+from multiprocessingpool import ThreadPool
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
